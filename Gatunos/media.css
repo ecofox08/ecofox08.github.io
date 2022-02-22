@@ -51,7 +51,7 @@
 }
 
 
-.container ul{
+.contenedor ul{
     width: 1500px;
     height: 500px;
     padding: 30px;
@@ -94,20 +94,38 @@ ul,li {
     list-style:none;
 }
 
-
+#img4 img {
+    width: 1500px;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
  
-.conciertos-enero{
+#texto-parrafo1{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: purple;
 }
 
-.texto-conciertos {
-    font-family: verdana,Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    margin: 20px 20px;
-    font-size: 18px;
+#texto-parrafo1 {
+    width: 1500px;
+    height: 200px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(5, 8, 0);
+    color: white;
+    border-radius: 25px;
+}
+#texto-parrafo2 {
+    width: 1500px;
+    height: 300px;
+    text-align: center;
+    font-size: 80px;
+    background-color: rgb(7, 10, 1);
+    color: rgb(176, 49, 226);
+    border-radius: 25px;
 }
 
 @media screen{
