@@ -1,0 +1,140 @@
+.logo-img{
+    text-align: left;
+    width:150px;
+}
+
+#titulo-primario {
+    text-align: center;
+    font-size: 50px;
+    background-color: cadetblue;
+    border-radius: 25px;
+}
+
+#success_message{ 
+    display: none;
+}
+
+.form {
+    text-align: center;
+}
+.form-group {
+    font-size: 15px;
+}
+
+.Menu-principal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Menu-principal ul {
+    display: flex;  
+    list-style-type: none;  
+}
+
+.Menu-principal ul li {
+    margin: 0px 50px;
+    background-color: rgb (142, 194, 176);
+    border-radius: 25px;
+    padding: 20px 20px;
+}
+
+#titulo-marca {
+    text-align: center;
+    color: black;
+    font-size: 80px;   
+}
+
+#subtitulo-marca {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+
+.contenedor ul{
+    width: 1500px;
+    height: 500px;
+    padding: 30px;
+    margin: 10px;
+    border: 5px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0;
+    top: 500;
+    opacity: 1;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    transition: opacity 0.5;
+}
+
+ul.slider li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.menu-slide li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+#img4 img {
+    width: 1500px;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+ 
+#texto-parrafo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+
+#texto-parrafo1 {
+    width: 1500px;
+    height: 200px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(5, 8, 0);
+    color: white;
+    border-radius: 25px;
+}
+#texto-parrafo2 {
+    width: 1500px;
+    height: 300px;
+    text-align: center;
+    font-size: 80px;
+    background-color: rgb(7, 10, 1);
+    color: rgb(176, 49, 226);
+    border-radius: 25px;
+}
+
+@media screen{
+}
+
+@media (max-width: 400px){
+    body, .responsivo, .div.imagen img {
+        width: 100%;
+        background-color: purple;
+    }
+}
+
